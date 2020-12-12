@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: var(--slack-color);
+  color: #d6cdd6;
+}
+
+.header__search {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__search input {
+  width: 40%;
+  margin: 0 12px;
+  background: #431e44;
+  color: #d6cdd6;
+  font-weight: 600;
+  outline: none;
+  padding: 4px 8px;
+  border: 1px solid #d6cdd6de;
+  border-radius: 4px;
+}
+
+.header__search--icon.MuiSvgIcon-root {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.header__search--icon.MuiSvgIcon-root:hover {
+  background: #49254a;
+}
+
+/* .header__search--icon.MuiSvgIcon-root.notification::before {
+  width: 3px;
+  height: 3px;
+  display: block;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+} */
+
+.header__search input::placeholder {
+  color: #d6cdd6;
+  font-weight: 600;
+}
+
+.header__right {
+  padding: 8px;
+}
+
+.MuiAvatar-root.MuiAvatar-circle.header__avatar {
+  width: 30px;
+  height: 30px;
+}

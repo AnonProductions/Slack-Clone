@@ -1,0 +1,35 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__container {
+  padding: 100px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 13px 12px 45px -10px rgba(0, 0, 0, 0.24);
+}
+
+.login__container img {
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.login__container button.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  margin-top: 50px;
+  text-transform: inherit;
+  background: #0a8d48;
+  padding: 8px 24px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.login__container
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover {
+  transform: translateY(-4px);
+  box-shadow: 13px 12px 45px -10px rgba(0, 0, 0, 0.34);
+}

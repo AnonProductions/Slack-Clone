@@ -1,0 +1,31 @@
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message + .message {
+  margin-top: 18px;
+}
+
+.message + .message__same {
+  margin-top: 4px;
+  margin-left: 48px;
+}
+
+.message img {
+  width: 40px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.message__info h4 {
+  display: flex;
+  align-items: baseline;
+}
+
+.message__info h4 span {
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: 8px;
+}
